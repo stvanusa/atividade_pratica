@@ -1,0 +1,35 @@
+01-
+git init
+
+02-
+git config --global user.name "Vanusa"
+
+git config --global user.email "vanusa.psenai@gmail.com"
+
+03- git add README.md
+
+git commit -m "Adiciona README inicial"
+
+04- 
+git add README.md
+
+git commit -m "Atualiza README com mais informações"
+
+05- 
+git branch feature-nova
+git checkout feature-nova
+git branch
+
+06-git add script.js
+git commit -m "Adiciona script inicial"
+
+07- 
+git checkout master
+git merge feature-nova
+
+08- git remote add origin https://github.com/stvanusa/atividade_pratica.git
+
+09- git push -u origin master
+
+10- atualizou no GitHub
+git pull
